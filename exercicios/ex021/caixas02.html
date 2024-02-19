@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    body {
+        background-color: #E83F6F;
+        font: normal 1em Arial, sans-serif;
+        margin: a;
+    }
+
+    header {
+        height: 200px;
+        width: 700px;
+        background-color: #01cc3e;
+        color: white;
+        text-align: center;
+        
+        margin: 10px auto 20px auto;
+        border: 10px groove #2274A5;
+        border-radius: 20px;
+    }
+
+    header > h1 {
+        font: normal 3.5em Arial;
+    }
+
+    nav{
+        width: 500px;
+        background-color: #FFBF00;
+        margin: auto;
+        border-radius: 2px;
+        box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.521);
+    }
+
+    nav > a {
+        margin-right: 30px;
+    }
+
+    main {
+        width: 1200px;
+        background-color: rgba(255, 255, 255, 0.918);
+        padding: 5px;
+        margin: auto;
+        margin-bottom: 10px;
+        border-radius: 0px 10px 0px 10px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
+    }
+
+    section > p {
+        font: normal bold 1.5em Arial;
+        text-align: center;
+    }
+
+    li > p {
+        display: none; /*!!!*/
+        background-color: #FFBF00;
+        text-align: justify;
+        padding: 5px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+    
+    span#mouse {
+        color: #2172a1;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    li#brasil:hover > p {
+        display: block;
+    }
+
+    li#mouse {
+        display: inline;
+        font: normal bold 1.5em Arial;
+    }
+
+    aside {
+        background-color: black;
+        color: rgba(255, 255, 255, 0.993);
+        text-align: center;
+        padding: 0.5px;
+        border-radius: 20px 20px 0px 20px;
+    }
+
+    footer {
+        width: 500px;
+        margin: auto;
+        font: italic 1.1em Arial;
+        color: #2274A5;
+        text-align: center;
+        background-color: #FFBF00;
+        border-radius: 20px;
+        padding: 5px;
+    }
+
+    footer > p {
+        margin: 0px;
+    }
+</style>
+<body>
+    <header>
+        <h1><code>Meu site</code></h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Tecnologia</p>
+        </section>
+        <section id="notícias">
+            <article>
+                <ul>
+                    <li id="brasil">
+                        <span id="mouse">Brasil e no Mundo:</span>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo suscipit sit, dolorum necessitatibus nesciunt voluptatem explicabo, ratione quis laborum, ullam ea nemo! Nobis, quia. Impedit nostrum obcaecati hic minus similique.</p>
+                    </li>
+                </ul>
+            </article>
+            <aside>
+                <p>Estevan Ferreira</p>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>Curso em vídeo</p>
+    </footer>
+</body>
+</html>
