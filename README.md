@@ -3,4 +3,4 @@
 
  Estou aprendendo a mecher no git e git hub!
 
- <a href="https://estevanferreira17.github.io/html-css/desafios/desafio010/projeto.html">executar desafio 010 do site Android</a>
+ <a href="https://estevanferreira17.github.io/html-css/exercicios/ex001/index.html">executar meu primeiro exercicio HTML</a>
